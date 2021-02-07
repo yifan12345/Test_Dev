@@ -1,5 +1,5 @@
 """
-ASGI config for itest_platfprm project.
+ASGI config for itestst_platform project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'itest_platfprm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'itestst_platform.settings')
 
 application = get_asgi_application()
